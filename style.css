@@ -1,0 +1,87 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Bitter', serif;
+  color: slategrey;
+  /* font-size: 32px; */
+  line-height: normal;
+}
+
+h1 {
+  color: #575F7D;
+  font-family: 'Bitter', serif;
+  font-size: 50px;
+  line-height: normal;
+}
+
+h2 {
+  color:black;
+  font-family: 'Bitter', serif;
+  font-size: 38px;
+  line-height: normal;
+}
+
+h3 {
+  color:steelblue;
+  font-family: 'Bitter', serif;
+  font-size: 38px;
+  line-height: normal;
+}
+
+a {
+  color: #021b20;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkolivegreen;
+  text-decoration: none;
+}
+
+.card-white {
+  background-color: #BCB8B1;
+  padding: 40px;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 90%);
+  border-radius: 4px;
+  margin: 10px auto;
+  text-align: center;
+  width: 60%;
+  height: 60%;
+
+}
+
+.list-inline li {
+  font-size: xx-large;
+  display: inline;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  padding-right: 40px;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.image {
+  border-radius: 10%;
+}
+
+/* .btn {
+  border-radius: 10%;
+  background-color: darkolivegreen;
+  padding: 3px;
+  color: #0B5563;
+  text-decoration: none;
+} */
+
+.btn:hover {
+  background-color: #0B5563;
+  color: darkolivegreen;
+}
